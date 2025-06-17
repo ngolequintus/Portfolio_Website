@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Ngole Quintus Designed this 
+	A student can use this template to learn
+	And you are free to use it for your work and showreel too 
+	cheers
+-->
+<html>
+	<head>
+		<title>Data Securitys</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Metaspoilt security</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Pages/index1.html">Meet The Team</a></li>
+							<li><a href="Pages/frequently_asked.html">Frequently Asked Questions</a></li>
+							<li><a href="generic.html">Contact Us</a></li>
+							<li><a href="elements.html">Cyber Security Training</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Data Securitys</h1>
+							<span class="image main"><img src="images/data_security.jpg" alt="" /></span>
+							<p>Data is the lifeblood of modern business, making its protection an absolute imperative. At Metaspoilt Security, we understand that safeguarding your sensitive information from unauthorized access, corruption, or theft is critical not only for operational continuity but also for maintaining trust and regulatory compliance. Our comprehensive Data Security services are designed to protect your data throughout its entire lifecycle—at rest, in transit, and in use—ensuring its confidentiality, integrity, and availability.</p>
+							<p>Metaspoilt Security employs a multi-faceted approach to data security, starting with a thorough assessment of your data classification and sensitivity. We then implement robust technical and procedural controls, including advanced encryption, stringent access management policies, data loss prevention (DLP) technologies, and secure backup strategies. Our experts help you establish strong data governance frameworks, ensuring that data handling practices align with industry best practices and regulatory requirements like GDPR or HIPAA, thereby reducing the risk of accidental exposure or malicious exfiltration.</p>
+							<p>By partnering with Metaspoilt Security for your data security needs, you empower your organization with fortified defenses against data breaches and insider threats. Our tailored solutions minimize the risk of financial penalties, reputational damage, and operational disruptions associated with compromised data. We provide the expertise and tools necessary to maintain control over your most valuable asset, ensuring that your information remains secure, compliant, and available only to authorized individuals.</p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<section>
+    <h2>Get in touch</h2>
+    <form id="contactForm">
+        <div class="fields">
+            <div class="field half">
+                <input type="text" name="name" id="name" placeholder="Name" required />
+            </div>
+            <div class="field half">
+                <input type="email" name="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="field">
+                <textarea name="message" id="message" placeholder="Message" rows="6" required></textarea>
+            </div>
+        </div>
+        <ul class="actions">
+            <li><input type="submit" value="Send Message" class="primary" /></li>
+        </ul>
+    </form>
+							</section>
+
+								<script>
+									document.getElementById('contactForm').addEventListener('submit', function(event) {
+										// Prevent the default form submission behavior (which would just refresh the page)
+										event.preventDefault();
+
+										// Get values from the form fields
+										const userName = document.getElementById('name').value;
+										const userEmail = document.getElementById('email').value;
+										const userMessage = document.getElementById('message').value;
+
+										// Encode the values for use in a URL
+										const subject = encodeURIComponent(`Message from ${userName} via Website Contact Form`);
+										const body = encodeURIComponent(
+											`Name: ${userName}\n` +
+											`Email: ${userEmail}\n\n` +
+											`Message:\n${userMessage}`
+										);
+
+										// Construct the mailto link
+										const mailtoLink = `mailto:ngole7@live.com?subject=${subject}&body=${body}`;
+
+										// Open the user's default email client
+										window.location.href = mailtoLink;
+
+										// Optionally, you could clear the form after submission attempt
+										// this.reset();
+									});
+								</script>
+							</section>
+							<section>
+								<h2>Follow Us</h2>
+								<ul class="icons">
+									<li><a href="https://x.com/NgoleQ20511" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://web.facebook.com/ngole.quintus" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/metasploit_studios" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.linkedin.com/in/ngole-quintus-025518167/" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="https://github.com/ngolequintus" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="https://wa.me/237691163286" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="mailto:ngole7@live.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Metaspoilt Security. All rights reserved</li><li>Design: <a href="https://github.com/ngolequintus">The Metaspolt Team</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
